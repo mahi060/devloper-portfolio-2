@@ -8,10 +8,16 @@ span{
 }
 h1{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 60px;
 }
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
 p{
     font-weight: 700;
+    font-size: 20px;
 
 }
 .section-1{
@@ -60,8 +66,41 @@ a{
     background-position: right;
 }
 .section-3{
-    background-color:paleturquoise;
+    
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .div-3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
     display: flex;
+    padding-bottom: 20px;
+    
+}
+.h1-3{
+    padding-left: 80px;
+}
+.full-dev-color{
+    
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 80px;
+    border-radius: 10px;
+    border-left: 10px solid orangered;
+}
+.baby-dev-color{
+   
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 80px;
+    border-radius: 10px;
+    border-left: 10px solid royalblue;
+}
+footer p{
+    text-align: center;
 }
