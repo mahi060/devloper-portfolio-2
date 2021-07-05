@@ -59,3 +59,9 @@ a{
     background-repeat: no-repeat;
     background-position: right;
 }
+.section-3{
+    background-color:paleturquoise;
+}
+.div-3{
+    display: flex;
+}
